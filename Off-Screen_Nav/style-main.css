@@ -319,6 +319,9 @@ CSS Grid layout for wider screens, when browser supports grid:
             grid-column: 1;
             grid-row: 1/5;
         }
+        .reveal .main-nav {
+            left: 0;
+        }
         .main-nav ul {
             flex-direction: column;
         }
@@ -327,7 +330,9 @@ CSS Grid layout for wider screens, when browser supports grid:
             display: block;
             top: 1.5em;
             left: .2em;
-            /*left: 14.5em;*/
+        }
+        .reveal .trigger {
+            left: 14.5em;
         }
 
 		.cards {
