@@ -217,6 +217,8 @@ CSS Grid layout for wider screens, when browser supports grid:
 		.card {
 			margin: 1em 0;
 			padding: .5em;
+			display: grid;
+            grid-template-columns: 8em auto;
 		}
 
 		.cards a:focus,
